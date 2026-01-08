@@ -1,0 +1,26 @@
+name: dependencies
+description: "Provide base dependencies"
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dio: ^5.9.0
+  go_router: ^17.0.1
+  flutter_secure_storage: ^10.0.0
+  path_provider: ^2.1.5
+  flutter_local_notifications: ^19.5.0
+  logger: ^2.6.2
+  equatable: ^2.0.8
+  alice: ^1.0.0
+  flutter_dotenv: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
